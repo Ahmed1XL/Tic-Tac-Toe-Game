@@ -262,8 +262,8 @@ void setupPvP()
 	cout << "Enter name for Player 2 (O): ";
 	cin >> name2;
 
-	player1 = new Player(name1, 'X');
-	player2 = new Player(name2, 'O');
+	player1 = new HumanPlayer(name1, 'X');
+	player2 = new HumanPlayer(name2, 'O');
 	currentPlayer = player1;
 }
 void setupPvC(Difficulty difficulty)
